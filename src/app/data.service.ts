@@ -8,7 +8,7 @@ import { Data } from "./data";
 })
 export class DataService {
 
-  dataUrl = "https://echo.synchrobot.de/data.json";
+  dataUrl = "assets/data.json";
 
   getData(): Observable<Data[]> {
     return this.http.get<Data[]>(this.dataUrl);
