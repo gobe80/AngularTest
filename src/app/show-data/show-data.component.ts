@@ -16,7 +16,7 @@ export class ShowDataComponent implements OnInit {
 
   getMyData(): void {
     this.dataService.getData()
-      .subscribe(myData => this.myData = myData);
+      .subscribe(data => this.myData = data);
   }
 
   ngOnInit() {
