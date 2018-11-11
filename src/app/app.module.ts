@@ -4,10 +4,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ShowDataComponent } from './show-data/show-data.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ShowDataComponent
   ],
   imports: [
     BrowserModule,
