@@ -1,4 +1,10 @@
 [
-    { "id" : "1" },
-    { "name" : "Testname"}
+    { 
+        "id" : "1",
+        "name" : "Hallo"
+    },
+    { 
+        "id" : "2",
+        "name" : "Hallo 2"
+    }
 ]
